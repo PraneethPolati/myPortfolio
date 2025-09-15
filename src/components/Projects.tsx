@@ -4,28 +4,19 @@ import { ExternalLink, Github, Smartphone, Globe, Database } from 'lucide-react'
 export const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'Full-Stack Web Application',
-      description: 'Comprehensive web application built with React frontend and Node.js backend. Features user authentication, data management, and responsive design with modern UI components.',
+      title: 'Weather Application',
+      description: 'Developed a responsive weather application using HTML5, CSS3 and JavaScript that provides real-time weather updates and a 7-day forecast.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'CSS3'],
+      technologies: ['HTML5', 'CSS3', 'JavaScript', 'OpenWeather API'],
       liveUrl: '#',
       githubUrl: '#',
       icon: <Globe className="w-6 h-6" />
     },
     {
-      title: 'Responsive Dashboard',
-      description: 'Interactive dashboard application with data visualization, real-time updates, and user management. Built with modern JavaScript frameworks and responsive design principles.',
+      title: 'IoT-Based Underground Cable Fault Detection',
+      description: 'Engineered a system capable of detecting and reporting underground cable faults in real-time via SMS, pinpointing exact fault locations and distances.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'JavaScript', 'Chart.js', 'CSS3', 'REST API'],
-      liveUrl: '#',
-      githubUrl: '#',
-      icon: <Smartphone className="w-6 h-6" />
-    },
-    {
-      title: 'API Development Project',
-      description: 'RESTful API service built with Node.js and Express.js, featuring authentication, data validation, and database integration. Includes comprehensive documentation and testing.',
-      image: 'https://images.pexels.com/photos/590041/pexels-photo-590041.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Node.js', 'Express.js', 'MongoDB', 'JWT', 'Postman'],
+      technologies: ['IoT', 'Embedded Systems', 'Sensors', 'GSM Module'],
       liveUrl: '#',
       githubUrl: '#',
       icon: <Database className="w-6 h-6" />
