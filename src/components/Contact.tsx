@@ -10,7 +10,6 @@ export const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted:', formData);
     alert('Thank you for your message! I\'ll get back to you soon.');
     setFormData({ name: '', email: '', message: '' });
@@ -83,13 +82,15 @@ export const Contact: React.FC = () => {
               <h4 className="text-lg font-semibold mb-4">Connect With Me</h4>
               <div className="flex gap-4">
                 {[
-                  { icon: <Github size={20} />, href: '#', label: 'GitHub' },
-                  { icon: <Linkedin size={20} />, href: '#', label: 'LinkedIn' },
-                  { icon: <Twitter size={20} />, href: '#', label: 'Twitter' },
+                  { icon: <Github size={20} />, href: 'https://github.com/praneethp', label: 'GitHub' },
+                  { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/praneeth-polati', label: 'LinkedIn' },
+                  { icon: <Twitter size={20} />, href: '#', label: 'Twitter' }, // Keep empty or remove if you don’t use Twitter
                 ].map((social) => (
                   <a
                     key={social.label}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
                     aria-label={social.label}
                   >
