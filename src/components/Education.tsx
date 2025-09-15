@@ -27,19 +27,41 @@ export const Education: React.FC = () => {
             <div className="space-y-6">
               <div className="border-l-4 border-blue-600 pl-6">
                 <h4 className="text-xl font-bold text-gray-900 mb-2">
-                  Bachelor of Technology in Computer Science Engineering
+                  B.Tech in Electronics & Communication Engineering
                 </h4>
                 <p className="text-lg text-blue-600 font-semibold mb-2">
-                  Engineering College
+                  Vaagdevi College of Engineering, Warangal
                 </p>
                 <div className="flex items-center gap-2 text-gray-600 mb-3">
                   <Calendar size={16} />
-                  <span>2018 - 2022</span>
+                  <span>2019 – 2023 | CGPA: 7.1/10</span>
                 </div>
-                <p className="text-gray-700">
-                  Comprehensive study of computer science fundamentals including data structures, 
-                  algorithms, software engineering principles, and modern programming languages.
+              </div>
+
+              <div className="border-l-4 border-blue-600 pl-6">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                  12th Grade (MPC)
+                </h4>
+                <p className="text-lg text-blue-600 font-semibold mb-2">
+                  Alphores Junior College, Hanamkonda
                 </p>
+                <div className="flex items-center gap-2 text-gray-600 mb-3">
+                  <Calendar size={16} />
+                  <span>2017 – 2019 | 80%</span>
+                </div>
+              </div>
+
+              <div className="border-l-4 border-blue-600 pl-6">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                  10th Grade
+                </h4>
+                <p className="text-lg text-blue-600 font-semibold mb-2">
+                  Sri Chaitanya Techno School, Warangal
+                </p>
+                <div className="flex items-center gap-2 text-gray-600 mb-3">
+                  <Calendar size={16} />
+                  <span>2016 – 2017 | CGPA: 8.2/10</span>
+                </div>
               </div>
             </div>
           </div>
@@ -55,11 +77,8 @@ export const Education: React.FC = () => {
 
             <div className="space-y-4">
               {[
-                'JavaScript ES6+ Certification',
-                'React Developer Certification',
-                'Node.js Fundamentals',
-                'MongoDB Database Administration',
-                'Git Version Control'
+                'MERN Stack Internship Certification (EY)',
+                'Java Full Stack Development Certification (IHub Institute)'
               ].map((cert, index) => (
                 <div
                   key={cert}
@@ -70,18 +89,6 @@ export const Education: React.FC = () => {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* Additional Info */}
-        <div className="mt-12 text-center">
-          <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Continuous Learning</h3>
-            <p className="text-gray-700 leading-relaxed">
-              I believe in lifelong learning and staying updated with the latest technologies. 
-              I regularly attend conferences, participate in online courses, and contribute to 
-              open-source projects to expand my knowledge and give back to the community.
-            </p>
           </div>
         </div>
       </div>
