@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -82,9 +82,8 @@ export const Contact: React.FC = () => {
               <h4 className="text-lg font-semibold mb-4">Connect With Me</h4>
               <div className="flex gap-4">
                 {[
-                  { icon: <Github size={20} />, href: 'https://github.com/praneethp', label: 'GitHub' },
-                  { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/praneeth-polati', label: 'LinkedIn' },
-                  { icon: <Twitter size={20} />, href: '#', label: 'Twitter' }, // Keep empty or remove if you don’t use Twitter
+                  { icon: <Github size={20} />, href: 'https://github.com/PraneethPolati', label: 'GitHub' },
+                  { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/praneethpolati/', label: 'LinkedIn' },
                 ].map((social) => (
                   <a
                     key={social.label}
@@ -168,3 +167,4 @@ export const Contact: React.FC = () => {
     </section>
   );
 };
+
