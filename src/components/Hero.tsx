@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
           </h1>
           
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-8 font-light">
-            Software Engineer & Full-Stack Developer
+            Web Developer & Full-Stack Developer
           </h2>
           
           <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
