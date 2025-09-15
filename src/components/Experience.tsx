@@ -4,32 +4,28 @@ import { MapPin, Calendar } from 'lucide-react';
 export const Experience: React.FC = () => {
   const experiences = [
     {
-      title: 'Software Developer',
-      company: 'Tech Solutions Pvt Ltd',
-      location: 'India',
-      period: '2022 - Present',
+      title: 'MERN Stack Development Intern',
+      company: 'EY GDS',
+      location: 'Remote / India',
+      period: 'Feb 2025 – Mar 2025',
       description: [
-        'Developing and maintaining full-stack web applications using React.js and Node.js',
-        'Building responsive user interfaces with modern JavaScript frameworks',
-        'Implementing RESTful APIs and database integration with MongoDB and PostgreSQL',
-        'Collaborating with cross-functional teams using Agile methodologies',
-        'Participating in code reviews and maintaining technical documentation'
+        'Developed a MERN stack web application as part of a 6-week internship using MongoDB, Express.js, React.js, and Node.js',
+        'Collaborated with mentors and industry experts in master classes on AI tools, UI/UX design, and web development best practices',
+        'Presented the final project to a panel of EY experts, showcasing coding, problem-solving, and presentation skills'
       ],
-      technologies: ['React.js', 'Node.js', 'JavaScript', 'MongoDB', 'Express.js', 'Git']
+      technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Git', 'UI/UX']
     },
     {
-      title: 'Software Development Intern',
-      company: 'Innovation Labs',
-      location: 'India',
-      period: '2021 - 2022',
+      title: 'Full Stack Development Intern',
+      company: 'Innomatics Research Labs',
+      location: 'Hyderabad, India',
+      period: 'Sept 2024 – Nov 2024',
       description: [
-        'Developed web applications using HTML, CSS, JavaScript, and React.js',
-        'Assisted in building RESTful APIs using Node.js and Express.js',
-        'Worked on database operations with MongoDB and PostgreSQL',
-        'Learned software development best practices and version control with Git',
-        'Collaborated with development team on various client projects'
+        'Built user-friendly, responsive web applications using React.js and JavaScript for smooth functionality across devices',
+        'Collaborated with team members using GitHub for version control and project quality maintenance',
+        'Integrated and tested APIs using Postman to ensure reliable data flow and improve app performance'
       ],
-      technologies: ['HTML/CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Git']
+      technologies: ['React.js', 'JavaScript', 'APIs', 'Postman', 'GitHub']
     }
   ];
 
