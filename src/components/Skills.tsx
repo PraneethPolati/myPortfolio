@@ -46,7 +46,7 @@ export const Skills: React.FC = () => {
       title: 'Tools & Others',
       skills: [
         { name: 'Git/GitHub', level: 90 },
-        { name: 'Docker', level: 75 },
+        
         { name: 'AWS/Cloud', level: 80 },
         { name: 'REST APIs', level: 90 },
         { name: 'Agile/Scrum', level: 85 },
