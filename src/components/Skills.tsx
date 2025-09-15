@@ -26,7 +26,7 @@ export const Skills: React.FC = () => {
       title: 'Frontend',
       skills: [
         { name: 'React/Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
+        
         { name: 'JavaScript', level: 95 },
         { name: 'HTML/CSS', level: 95 },
         { name: 'Tailwind CSS', level: 90 },
